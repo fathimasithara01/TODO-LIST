@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Welcome to the ToDoList application")
+	fmt.Println("Welcome to the ToDoList application  ")
 
 	scanner := bufio.NewScanner(os.Stdin)
 
@@ -35,7 +35,7 @@ func main() {
 		scanner.Scan()
 		time := scanner.Text()
 
-		todo := todoTask{name: name, time: time} 
+		todo := todoTask{name: name, time: time}
 		todoList = append(todoList, todo)
 
 		fmt.Println(name, "and", time, todo, todoList)
