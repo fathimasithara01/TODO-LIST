@@ -41,7 +41,7 @@ func main() {
 		fmt.Println(name, "and", time, todo, todoList)
 	}
 
-	for _, todo := range todoList {
+	for _, todo := range todoList {A
 		fmt.Println("The task name is", todo.name, "and the time for it is", todo.time)
 	}
 }
